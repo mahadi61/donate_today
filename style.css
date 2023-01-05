@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.primary_btn{
+    padding: 16px 12px;
+    gap: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background:#FF5959;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 15px;
+
+
+}
+
+/* header area css */
+header{
+    background: url(./images/donation13.jpg),linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    text-align: center;
+    padding: 175px 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h2{
+    font-size: 50px;
+    color: #ffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+header p{
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* donate now section css */
+
+.donate_now{
+    padding: 100px 300px;
+    text-align: center;
+}
+.donate_now h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.donate_now p{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+
+}
+.amount h4{
+    padding: 25px;
+    background: #d5cfcf;
+    border-radius: 5px;
+    margin-right: 2px;
+
+}
+.amount h4:hover{
+    background: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.donate_input{
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+.line{
+    height: 2px;
+    color: #121212;
+}
+
+/* donate plan area css */
+
+.donate_plan_heading{
+    text-align: center;
+    padding:0 350px;
+    margin-bottom: 50px;
+}
+.donate_plan_heading h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.donate_plan_heading p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
+
+/* donate card css */
+.donate_plan_way{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    margin-bottom: 130px;
+}
+.single_way{
+    text-align: left;
+    padding: 40px 23px;
+    background: rgba(255, 89, 89, 0.1);;
+    border-radius: 5px;
+    margin: 5px;
+}
+.single_way:hover{
+    background: rgba(79, 157, 166, 0.1);
+    transition: 0.5s;
+}
+.single_way h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+/* suffering_people css */
+
+.suffering_people{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.people_img img{
+    width: 100%;
+
+}
