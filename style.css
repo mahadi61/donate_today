@@ -58,19 +58,19 @@ header p{
 .amount{
     display: flex;
     justify-content: space-around;
-
+    
 }
 .amount h4{
     padding: 25px;
     background: #d5cfcf;
     border-radius: 5px;
     margin-right: 2px;
-
 }
 .amount h4:hover{
     background: #FFEEEE;
     color: #FF5959;
-    border: 2px solid #FF5959;
+    border: 1px solid transparent #FF5959;
+    /* border: none; */
 }
 
 .donate_input{
@@ -81,6 +81,7 @@ header p{
 .line{
     height: 2px;
     color: #121212;
+    margin-bottom: 30px;
 }
 
 /* donate plan area css */
@@ -135,8 +136,74 @@ header p{
     display: flex;
     justify-content: space-between;
     padding: 0 200px;
+    margin-bottom: 100px;
+}
+.people_img{
+    width: 48%;
 }
 .people_img img{
     width: 100%;
 
+}
+.people_text{
+    width: 48%;
+    text-align: left;
+}
+.people_text h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.people_text p{
+    margin-bottom: 20px;
+}
+
+/* update area css */
+
+.update{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 200px;
+}
+
+.subscribe{
+    text-align: center;
+    background: #FF5959;
+    margin: 150px 200px;
+    padding: 75px 100px;
+
+}
+.subscribe input{
+    background: #D9D9D9;
+    color: #AA9F9F;
+    padding-left: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.subscribe subscribe_btn{
+    padding: 5px 5px;
+    margin-left: 0;
+}
+
+
+/* footer area css */
+
+.footer_area{
+    background: #0B0D17;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.footer_area h1{
+    color: #FF5959;
+    margin-bottom: 24px;
+    padding-top: 43px;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+}
+.footer_area p{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
